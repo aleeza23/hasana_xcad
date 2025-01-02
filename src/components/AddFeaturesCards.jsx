@@ -27,7 +27,7 @@ export const AddFeaturesCards = ({ image, heading, className, children }) => {
 
             {/* Dynamic Heading and Description */}
             <p className='font-poppins text-[#231C1C] font-bold uppercase mb-3'>Coming Soon</p>
-            <h1 className='font-poppins lg:text-4xl max-w-sm mb-3 leading-[1.20] font-extralight'>{heading}</h1>
+            <h1 className='font-poppins text-3xl lg:text-4xl max-w-sm mb-3 leading-[1.20] font-extralight'>{heading}</h1>
 
             {/* Black Box Content */}
             {children}

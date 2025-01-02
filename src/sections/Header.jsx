@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/icons/logo.svg'
 import { FiSearch } from "react-icons/fi";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export const Header = () => {
     return (
@@ -20,16 +21,17 @@ export const Header = () => {
                             <a href="" className='nav-item'>Play</a>
                             <a href="" className='nav-item'>Buy-Hasanat</a>
                         </div>
-                        <div className="flex items-center">
+                        <div className="flex gap-4 items-center">
                             <a
                                 href="#"
-                                className="nav-item btn-border rounded-full py-2"
+                                className="nav-item btn-border rounded-full py-2 hidden lg:block"
                             >
                                 <span className="flex items-center justify-center text-white  ">
                                     Download
                                 </span>
                             </a>
-                            <a href=""> <FiSearch className=' ms-3 mt-1 my-auto text-white/90 size-6 ' /></a>
+                            <a href=""> <FiSearch className=' ms-3 lg:mt-1 my-auto text-white/90 size-5 ' /></a>
+                            <button><RxHamburgerMenu className='size-5 font-extrabold' /> </button>
                         </div>
                     </nav>
                 </div>
