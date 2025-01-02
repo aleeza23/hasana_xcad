@@ -2,7 +2,7 @@ import React from 'react';
 
 export const AddFeaturesCards = ({ image, heading, className, children }) => {
     return (
-        <div className={`${className} bg-gradient-to-b from-[#814E00] to-[#C07F00] border border-white/90 p-6 pb-9 rounded-3xl relative h-max`}>
+        <div className={`${className}  from-[#814E00] to-[#C07F00] border border-white/90 p-6 pb-9 rounded-3xl relative h-max`}>
             {/* SVG with Dynamic Image */}
             <div className="absolute -translate-y-1/2 translate-x-1/2 right-10">
                 <div className="relative">

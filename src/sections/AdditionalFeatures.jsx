@@ -20,6 +20,7 @@ export const AdditionalFeatures = () => {
                     <AddFeaturesCards
                         image={prayImage}
                         heading="Spiritual NFT Moments"
+                        className={'bg-gradient-to-b'}
                     >
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
@@ -41,7 +42,7 @@ export const AdditionalFeatures = () => {
                         </div>
                     </AddFeaturesCards>
 
-                    <AddFeaturesCards heading={'Hassle-Free Zakat Calculation'} image={prayImage}>
+                    <AddFeaturesCards heading={'Hassle-Free Zakat Calculation'} image={prayImage} className={'bg-gradient-to-t'}>
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
                             <div className='bg-[#111111] flex items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>
@@ -62,7 +63,7 @@ export const AdditionalFeatures = () => {
                         </div>
                     </AddFeaturesCards>
 
-                    <AddFeaturesCards heading={'Hajj and Umrah Planner'} image={prayImage}>
+                    <AddFeaturesCards heading={'Hajj and Umrah Planner'} image={prayImage} className={'bg-gradient-to-b'}>
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
                             <div className='bg-[#111111] flex items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>
@@ -76,7 +77,7 @@ export const AdditionalFeatures = () => {
                         </div>
                     </AddFeaturesCards>
 
-                    <AddFeaturesCards heading={'Location-Based Features'} image={prayImage}>
+                    <AddFeaturesCards heading={'Location-Based Features'} image={prayImage} className={'bg-gradient-to-t'}>
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
                             <div className='bg-[#111111] flex items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>
@@ -98,7 +99,7 @@ export const AdditionalFeatures = () => {
                         </div>
                     </AddFeaturesCards>
 
-                    <AddFeaturesCards className='lg:-mt-[6.5rem]' heading={'Financial Ecosystem Development'} image={prayImage}>
+                    <AddFeaturesCards className='lg:-mt-[6.5rem] bg-gradient-to-t' heading={'Financial Ecosystem Development'} image={prayImage} >
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
                             <div className='bg-[#111111] flex items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>
@@ -110,23 +111,23 @@ export const AdditionalFeatures = () => {
                             </div>
 
                             <div className='bg-[#111111] flex flex-col items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>
-                            <div className="flex items-start gap-2">
-                                <div className='border-2 p-[2px] mt-1 bg-gradient-to-b from-[#814E00] to-[#C07F00] rounded-sm'><FaCheck className='size-1.5 -rotate-12' /></div>
-                                <div>
-                                    <p className='text-sm font-roboto font-thin lowercase'>dex (Decentralized Exchange) </p>
-                                </div>
+                                <div className="flex items-start gap-2">
+                                    <div className='border-2 p-[2px] mt-1 bg-gradient-to-b from-[#814E00] to-[#C07F00] rounded-sm'><FaCheck className='size-1.5 -rotate-12' /></div>
+                                    <div>
+                                        <p className='text-sm font-roboto font-thin lowercase'>dex (Decentralized Exchange) </p>
+                                    </div>
                                 </div>
                                 <div className="flex items-start gap-2">
-                                <div className='border-2 p-[2px] mt-1 bg-gradient-to-b from-[#814E00] to-[#C07F00] rounded-sm'><FaCheck className='size-1.5 -rotate-12' /></div>
-                                <div>
-                                    <p className='text-sm font-roboto font-thin lowercase'>CEX (Centralized Exchange)</p>
-                                </div>
+                                    <div className='border-2 p-[2px] mt-1 bg-gradient-to-b from-[#814E00] to-[#C07F00] rounded-sm'><FaCheck className='size-1.5 -rotate-12' /></div>
+                                    <div>
+                                        <p className='text-sm font-roboto font-thin lowercase'>CEX (Centralized Exchange)</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </AddFeaturesCards>
 
-                    <AddFeaturesCards  heading={'Commercial Expension'} image={prayImage}>
+                    <AddFeaturesCards heading={'Commercial Expension'} image={prayImage} className={'bg-gradient-to-b'}>
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
                             <div className='bg-[#111111] flex items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>
