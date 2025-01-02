@@ -23,7 +23,7 @@ export const Header = () => {
                         <div className="flex items-center">
                             <a
                                 href="#"
-                                className="nav-item border rounded-full py-2"
+                                className="nav-item btn-border rounded-full py-2"
                             >
                                 <span className="flex items-center justify-center text-white  ">
                                     Download

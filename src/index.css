@@ -11,9 +11,16 @@
   .nav-item {
     @apply font-poppins px-2 font-thin text-white/90
   }
+  body {  
+    background-color: #281c1c;
+    color: #fff; 
+  }
+  .gradient-text {
+    @apply bg-gradient-to-b from-[#814E00] to-[#C07F00] bg-clip-text text-transparent
+  }
 }
 
-.border { 
+.btn-border { 
   border: 3px solid transparent; 
   border-image: linear-gradient(to bottom, #814E00, #C07F00); 
   border-image-slice: 1; 
