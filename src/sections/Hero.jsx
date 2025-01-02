@@ -5,7 +5,7 @@ export const Hero = () => {
         <div>
             <div className="container  h-[80vh] flex items-center ">
                 <div className='max-w-lg text-white '>
-                    <h2 className='font-poppins font-bold text-xl tracking-wide lg:text-[2.20rem]'>Nurturing Faith Through Technology.</h2>
+                    <h2 className='font-poppins font-bold text-xl tracking-wide leading-snug lg:text-[2.20rem]'>Nurturing Faith Through Technology.</h2>
                     <h1 className='font-monoton text-5xl mt-2 lg:mt-5  lg:text-[4.9rem]'>Features</h1>
                     <h2 className='font-poppins font-thin text-3xl lg:text-6xl uppercase lg:-mt-2'>of Hasanat</h2>
                     <p className='font-roboto font-thin text-md max-w-sm mt-2'>Empowering Your Spiritual Journey with Advanced Features</p>
