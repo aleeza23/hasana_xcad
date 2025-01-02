@@ -11,7 +11,7 @@ export const Header = () => {
                         <img src={logo} alt="logo" className='size-20' />
                     </div>
                     <nav className='flex gap-2'>
-                        <div className="flex items-center">
+                        <div className="lg:flex items-center hidden">
                             <a href="" className='nav-item'>Products</a>
                             <a href="" className='nav-item'>Project</a>
                             <a href="" className='nav-item'>Features</a>
