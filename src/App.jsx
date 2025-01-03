@@ -16,7 +16,7 @@ export default function App() {
       <CoreFeatures />
       <AdditionalFeatures />
       <Roadmap />
-      {/* <Footer /> */}
+      <Footer />
 
     </>
   )

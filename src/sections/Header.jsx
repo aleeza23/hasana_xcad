@@ -31,7 +31,7 @@ export const Header = () => {
                                 </span>
                             </a>
                             <a href=""> <FiSearch className=' ms-3 lg:mt-1 my-auto text-white/90 size-5 ' /></a>
-                            <button><RxHamburgerMenu className='size-5 font-extrabold' /> </button>
+                            <button><RxHamburgerMenu className='size-5 font-extrabold lg:hidden' /> </button>
                         </div>
                     </nav>
                 </div>

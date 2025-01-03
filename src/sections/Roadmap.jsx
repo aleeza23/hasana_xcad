@@ -5,7 +5,15 @@ import { LeftTimelineItem } from '../components/LeftTimelineItem';
 import { RightTimelineItem } from '../components/RightTimelineItem';
 
 // IMPORTING ICONS
-import iconOne from '../assets/icons/reward.svg';
+import iconOne from '../assets/icons/blocks (1) 1.svg'
+import iconTwo from '../assets/icons/reward.svg';
+import iconThree from '../assets/icons/social-justice 1.svg'
+import iconFour from '../assets/icons/social 1.svg'
+import iconFive from '../assets/icons/optics 1.svg'
+import iconSix from '../assets/icons/scope (1) 1.svg'
+import iconSeven from '../assets/icons/needs 1.svg'
+import iconEight from '../assets/icons/financial 1.svg'
+import iconNine from '../assets/icons/monitor 1.svg'
 
 export const Roadmap = () => {
   const timelineItems = [
@@ -22,7 +30,7 @@ export const Roadmap = () => {
       title: "Engagement and Reward System",
       objective: "Encourage and incentivize user participation and engagement.",
       features: ["Introduction of the Hasanah coin for rewarding user activities."],
-      icon: iconOne,
+      icon: iconTwo,
       quarter: "Q2 2024",
     },
     {
@@ -34,7 +42,7 @@ export const Roadmap = () => {
         "Social Sharing",
         "Competitions and Challenges (Aamal: Spirit, Mind, and Body)",
       ],
-      icon: iconOne,
+      icon: iconThree,
       quarter: "Q3 2024",
     },
     {
@@ -44,7 +52,7 @@ export const Roadmap = () => {
       features: [
         "Expansion of social sharing capabilities and integration of more social features.",
       ],
-      icon: iconOne,
+      icon: iconFour,
       quarter: "Q4 2024",
     },
     {
@@ -52,8 +60,8 @@ export const Roadmap = () => {
       title: "Educational Expansion",
       objective: "Enrich user knowledge with Islamic educational content.",
       features: ["Launch of educational modules for Islamic learning."],
-      icon: iconOne,
-      quarter: "Q1 2025",
+      icon: iconFive,
+      quarter: "Q5 2025",
     },
     {
       number: 6,
@@ -62,8 +70,8 @@ export const Roadmap = () => {
       features: [
         "Development of an e-commerce platform for Islamic products and services.",
       ],
-      icon: iconOne,
-      quarter: "Q2 2025",
+      icon: iconSix,
+      quarter: "Q6 2025",
     },
     {
       number: 7,
@@ -74,16 +82,16 @@ export const Roadmap = () => {
         "Gaming and AR",
         "Decentralized Game and NFT Marketplace",
       ],
-      icon: iconOne,
-      quarter: "Q3 2025",
+      icon: iconSeven,
+      quarter: "Q7 2025",
     },
     {
       number: 8,
       title: "Financial Ecosystem Development",
       objective: "Build robust financial ecosystem for Islamic transactions.",
       features: ["DEX (Decentralized Exchange)", "CEX (Centralized Exchange)"],
-      icon: iconOne,
-      quarter: "Q4 2025",
+      icon: iconEight,
+      quarter: "Q8 2025",
     },
     {
       number: 9,
@@ -91,8 +99,8 @@ export const Roadmap = () => {
       objective:
         "Launch a governance portal for active user participation in Islamic decisions.",
       features: ["Governance portal functionality."],
-      icon: iconOne,
-      quarter: "Q1 2026",
+      icon: iconNine,
+      quarter: "Q9 2026",
     },
   ];
 

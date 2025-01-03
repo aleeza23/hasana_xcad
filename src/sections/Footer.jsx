@@ -1,10 +1,78 @@
 import React from 'react';
+import footerImg from '../assets/images/footerImg.png'
+import { TiPlus } from "react-icons/ti";
 
 export const Footer = () => {
   return (
 
     <footer className='relative w-full lg:-mt-52 '>
-      <div className="absolute right-0  left-0">
+      <div className="absolute right-0  left-0 ">
+        <div className="lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-y-1/2 lg:-translate-x-1/2 w-full">
+          <div className="container w-full">
+            {/* The box */}
+            <div className="relative rounded-full h-[930px] lg:-mt-9 lg:h-auto p-4 lg:p-6 bg-gradient-to-b from-[#814E00] to-[#C07F00] overflow-hidden">
+              {/* Shape decorations */}
+              <div className="absolute top-0 left-0 rotate-90 lg:rotate-0 lg:top-12 lg:bottom-0 lg:left-0 h-64 w-64 rounded-full rounded-b-none rounded-tl-none bg-gradient-to-bl from-[#814E00] to-[#C07F00]"></div>
+              <div className="absolute -top-20 -left-28 lg:top-44 lg:-left-12 lg:-bottom-32 w-64 h-64 rounded-full border-2 border-[#241702]"></div>
+              <div className="absolute w-28 h-28 lg:h-20 lg:w-20 rotate-0 top-10 -left-9 lg:top-56 lg:-bottom-3 lg:left-16 rounded-full rounded-bl-none rounded-t-none lg:-rotate-90 bg-gradient-to-l from-[#814E00] to-[#C07F00]"></div>
+              <div className="absolute w-28 h-28 lg:h-20 lg:w-20 rotate-0 top-10 -left-12 lg:top-[14.4rem] lg:-bottom-4 lg:left-14 rounded-full rounded-bl-none rounded-t-none lg:-rotate-90 border-4 border-opacity-30 border-[#814E00]"></div>
+
+              {/* Content inside the box */}
+              <div className="flex lg:flex-row flex-col justify-end mt-auto h-full gap-6 lg:gap-0 items-center lg:justify-end">
+                <div className="flex flex-col items-center justify-center gap-6">
+                  <div className="text-center">
+                    <p className="uppercase font-bold font-roboto tracking-widest">Ready to</p>
+                    <h1 className="font-roboto font-bold text-5xl lg:text-4xl">Enhance Your Spiritual Life?</h1>
+                  </div>
+                  <button className="bg-[#000000] rounded-full w-full lg:w-max font-roboto font-medium px-6 py-3 shadow-xl">
+                    Download Hasanat Now
+                  </button>
+                  <p className="font-roboto font-thin text-sm w-full lg:text-xs max-w-[18rem] text-center">
+                    Earn Content Creator Tokens by watching your favorite YouTubers
+                  </p>
+                  <h4 className="font-roboto font-bold tracking-widest uppercase text-sm">Available on iOS and Android</h4>
+                </div>
+                <div>
+                  <img src={footerImg} alt="img" className="lg:size-64" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Add grid below the box */}
+        <div className="absolute bottom-1/3 hidden lg:block translate-y-2/3  w-full">
+          <div className=" container w-full mt-28">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8 text-center">
+              <div>
+                <nav className='flex flex-col gap-3'>
+                  <a href="" className='font-roboto text-sm'>Products</a>
+                  <a href="" className='font-roboto text-sm'>Products</a>
+                  <a href="" className='font-roboto text-sm'>Products</a>
+                  <a href="" className='font-roboto text-sm'>Products</a>
+
+                </nav>
+              </div>
+
+              <div>
+                <nav className='flex flex-col justify-start items-start gap-3'>
+                  <a href="" className='font-roboto text-sm'>Play</a>
+                  <a href="" className='font-roboto text-sm'>Play Buy-Hasanat</a>
+                  <button className='border-2 mt-4 border-white/90 rounded-full font-poppins px-4 py-2'>Download App</button>
+                  <button className='inline-flex gap-4 items-center justify-center py-3 rounded-md bg-gradient-to-t w-full mt-3  from-[#814E00] to-[#C07F00]'> <span className='font-poppins font-extrabold uppercase text-lg'>Connect Wallet</span> <TiPlus className='size-7 font-extrabold' /> </button>
+
+                </nav>
+              </div>
+
+              <div>
+                
+              </div>
+              <div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
         <svg
           className='w-full h-full'
           viewBox="0 0 1920 1312"
@@ -107,10 +175,9 @@ export const Footer = () => {
             </linearGradient>
           </defs>
         </svg>
-        <div className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'>
-          <h1 className='text-white'>hey</h1>
-        </div>
+
       </div>
+
 
     </footer>
 
