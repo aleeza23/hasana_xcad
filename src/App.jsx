@@ -1,6 +1,7 @@
 import { SectionHeading } from "./components/SectionHeading";
 import { AdditionalFeatures } from "./sections/AdditionalFeatures";
 import { CoreFeatures } from "./sections/CoreFeatures";
+import { Footer } from "./sections/Footer";
 import { Header } from "./sections/Header";
 import { Hero } from "./sections/Hero";
 import { Roadmap } from "./sections/Roadmap";
@@ -15,6 +16,7 @@ export default function App() {
       <CoreFeatures />
       <AdditionalFeatures />
       <Roadmap />
+      {/* <Footer /> */}
 
     </>
   )
