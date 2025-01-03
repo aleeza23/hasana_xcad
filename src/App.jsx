@@ -3,6 +3,7 @@ import { AdditionalFeatures } from "./sections/AdditionalFeatures";
 import { CoreFeatures } from "./sections/CoreFeatures";
 import { Header } from "./sections/Header";
 import { Hero } from "./sections/Hero";
+import { Roadmap } from "./sections/Roadmap";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       </section>
       <CoreFeatures />
       <AdditionalFeatures />
+      <Roadmap />
 
     </>
   )
