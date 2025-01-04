@@ -1,9 +1,9 @@
 import React from 'react'
-import { Header } from '../sections/Header'
-import { Hero } from '../sections/Hero'
-import { HowTokenWorks } from '../sections/HowTokenWorks'
-import TokenOverview from '../sections/TokenOverview'
-import { Structure } from '../sections/Structure'
+import { Header } from './sections/Header'
+import { Hero } from './sections/Hero'
+import { HowTokenWorks } from './sections/HowTokenWorks'
+import TokenOverview from './sections/TokenOverview'
+import { Structure } from './sections/Structure'
 
 export const Feature = () => {
   return (
