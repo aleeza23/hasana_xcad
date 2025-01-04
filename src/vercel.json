@@ -1,0 +1,7 @@
+{
+    "rewrites": [
+      { "source": "/features", "destination": "/" },
+      { "source": "/:path*", "destination": "/" }
+    ]
+  }
+  
