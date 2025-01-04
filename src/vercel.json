@@ -1,7 +1,6 @@
 {
-    "rewrites": [
-      { "source": "/features", "destination": "/" },
-      { "source": "/:path*", "destination": "/" }
-    ]
-  }
+    "rewrites":  [
+        {"source": "/(.*)", "destination": "/"}
+     ]
+ }
   
