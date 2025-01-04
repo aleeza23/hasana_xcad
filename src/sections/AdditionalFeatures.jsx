@@ -22,12 +22,12 @@ export const AdditionalFeatures = () => {
 
                 {/* card layout */}
 
-                <div className="grid lg:grid-cols-2 gap-10 lg:gap-24 py-24">
+                <div className="grid lg:grid-cols-2 gap-14 lg:gap-24 py-24">
                     {/* col one */}
                     <AddFeaturesCards
                         image={prayImage}
                         heading="Spiritual NFT Moments"
-                        className={'bg-gradient-to-b'}
+                        className={'bg-gradient-to-b lg:max-w-full'}
                     >
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
@@ -49,7 +49,7 @@ export const AdditionalFeatures = () => {
                         </div>
                     </AddFeaturesCards>
 
-                    <AddFeaturesCards heading={'Hassle-Free Zakat Calculation'} image={zakatImage} className={'bg-gradient-to-t'}>
+                    <AddFeaturesCards heading={'Hassle-Free Zakat Calculation'} image={zakatImage} className={'bg-gradient-to-t lg:max-w-full'}>
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
                             <div className='bg-[#111111] flex items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>
@@ -70,7 +70,7 @@ export const AdditionalFeatures = () => {
                         </div>
                     </AddFeaturesCards>
 
-                    <AddFeaturesCards heading={'Hajj and Umrah Planner'} image={ummrahTickets} className={'bg-gradient-to-b'}>
+                    <AddFeaturesCards heading={'Hajj and Umrah Planner'} image={ummrahTickets} className={'bg-gradient-to-b lg:max-w-full'}>
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
                             <div className='bg-[#111111] flex items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>
@@ -84,7 +84,7 @@ export const AdditionalFeatures = () => {
                         </div>
                     </AddFeaturesCards>
 
-                    <AddFeaturesCards heading={'Location-Based Features'} image={location} className={'bg-gradient-to-t'}>
+                    <AddFeaturesCards heading={'Location-Based Features'} image={location} className={'bg-gradient-to-t lg:max-w-full'}>
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
                             <div className='bg-[#111111] flex items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>
@@ -106,7 +106,7 @@ export const AdditionalFeatures = () => {
                         </div>
                     </AddFeaturesCards>
 
-                    <AddFeaturesCards className='lg:-mt-[6.5rem] bg-gradient-to-t' heading={'Financial Ecosystem Development'} image={financial} >
+                    <AddFeaturesCards className='lg:-mt-[6.5rem] bg-gradient-to-t lg:max-w-full' heading={'Financial Ecosystem Development'} image={financial} >
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
                             <div className='bg-[#111111] flex items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>
@@ -134,7 +134,7 @@ export const AdditionalFeatures = () => {
                         </div>
                     </AddFeaturesCards>
 
-                    <AddFeaturesCards heading={'Commercial Expension'} image={commercial} className={'bg-gradient-to-b'}>
+                    <AddFeaturesCards heading={'Commercial Expension'} image={commercial} className={'bg-gradient-to-b lg:max-w-full'}>
                         {/* Feature Boxes */}
                         <div className="flex flex-col gap-5">
                             <div className='bg-[#111111] flex items-start gap-2 max-w-md rounded-sm border px-2 py-2 border-white/40'>

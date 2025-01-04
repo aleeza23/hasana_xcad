@@ -24,7 +24,8 @@ export default {
         monoton: ['Monoton', 'cursive'],
       },
       backgroundImage : {
-        bannerImage : "url('/hero.png')"
+        bannerImage : "url('/hero.png')",
+        bannerImageFeature : "url('/page02Banner.png')",
       }
     },
   },

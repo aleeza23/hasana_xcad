@@ -15,7 +15,7 @@ export const Header = () => {
                         <div className="lg:flex items-center hidden">
                             <a href="" className='nav-item'>Products</a>
                             <a href="" className='nav-item'>Project</a>
-                            <a href="" className='nav-item'>Features</a>
+                            <a href="/features" className='nav-item'>Features</a>
                             <a href="" className='nav-item'>Students</a>
                             <a href="" className='nav-item'>Fans</a>
                             <a href="" className='nav-item'>Play</a>
