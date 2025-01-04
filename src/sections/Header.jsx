@@ -19,7 +19,7 @@ export const Header = () => {
                             <a href="" className='nav-item'>Students</a>
                             <a href="" className='nav-item'>Fans</a>
                             <a href="" className='nav-item'>Play</a>
-                            <a href="" className='nav-item'>Buy-Hasanat</a>
+                            <a href="/token" className='nav-item'>Buy-Hasanat</a>
                         </div>
                         <div className="flex gap-4 items-center">
                             <a

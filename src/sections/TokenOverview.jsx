@@ -58,7 +58,7 @@ const TokenOverview = () => {
             <div className="container relative me-auto">
                 <div className="flex justify-end items-end">
                     <div className='flex flex-col gap-3 justify-end items-end mb-8 lg:mb-0'>
-                        <h1 className='uppercase text-4xl gradient-text'>Tokenomics Overview </h1>
+                        <h1 className='uppercase text-2xl lg:text-4xl gradient-text text-right '>Tokenomics Overview </h1>
                         <p className='max-w-sm font-sans text-xs tracking-wide leading-relaxed text-right'><b>Total Supply:</b> 1 billion Hasanat Tokens have been created, ensuring a balanced distribution to support our community and platform's growth without diluting value.</p>
                         <h2 className="text-xl font-bold font-poppins  gradient-text uppercase">Distribution Plan</h2>
                     </div>

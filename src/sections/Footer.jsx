@@ -1,8 +1,7 @@
 import React from 'react';
-import footerImg from '../assets/images/footerImg.png'
 import { TiPlus } from "react-icons/ti";
 
-export const Footer = () => {
+export const Footer = ({footerImage}) => {
   return (
 
     <footer className='relative w-full lg:-mt-52 '>
@@ -33,7 +32,7 @@ export const Footer = () => {
                   <h4 className="font-roboto font-bold tracking-widest uppercase text-sm">Available on iOS and Android</h4>
                 </div>
                 <div>
-                  <img src={footerImg} alt="img" className="lg:size-64" />
+                  <img src={footerImage} alt="img" className="lg:size-64" />
                 </div>
               </div>
             </div>

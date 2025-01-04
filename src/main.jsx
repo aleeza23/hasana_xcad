@@ -1,17 +1,20 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import './index.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import App from './App';
-import { Feature } from './Feature';
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import App from './App'
+import { Feature } from './routes/Feature'
+import { Token } from './routes/Token'
 
+const router = createBrowserRouter([
+  { path: '/', element: <App /> },
+  { path: '/features', element: <Feature /> },
+  { path: '/token', element: <Token /> },
+
+
+])
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/features" element={<Feature />} />
-      </Routes>
-    </BrowserRouter>
+    <RouterProvider router={router} />
   </StrictMode>,
-);
+)

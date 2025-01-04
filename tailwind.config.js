@@ -26,6 +26,7 @@ export default {
       backgroundImage : {
         bannerImage : "url('/hero.png')",
         bannerImageFeature : "url('/page02Banner.png')",
+        bannerImageToken : "url(/tokenBanner.png)"
       }
     },
   },
