@@ -27,3 +27,9 @@
   border-radius: 9999px !important; /* Full round corners */
   
 }
+
+.shadow{
+  filter: drop-shadow(-160px -150px 150px rgba(255, 255, 255, 0.63));
+  pointer-events: none;
+}
+

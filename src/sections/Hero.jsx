@@ -1,7 +1,7 @@
 import React from 'react'
 export const Hero = ({children}) => {
     return (
-        <div>
+        <div className='relative'>
             <div className="container  h-[80vh] ">
                {children}
             </div>
