@@ -4,12 +4,16 @@ import { Hero } from '../sections/Hero';
 import heroImg from '../assets/images/tokenHero.png'
 import { Welcome } from '../sections/Welcome';
 import pattren from '../assets/icons/Frame 414.svg'
+import pattrenTwo from '../assets/icons/Frame 415.svg'
+
 import { HowHasnatWorks } from '../sections/HowHasnatWorks';
+import { TokenomicsOverview } from '../sections/TokenomicsOverview';
+import { IncentiveStructure } from '../sections/IncentiveStructure';
 
 export const Token = () => {
     return (
         <>
-            <section className="relative  bg-bannerImageToken bg-no-repeat bg-cover bg-center lg:bg-left ">
+            <section className="relative   bg-bannerImageToken bg-no-repeat bg-cover bg-center lg:bg-left z-0 ">
                 {/* Gradient Overlay */}
                 {/* <div className="absolute inset-0 bg-gradient-to-r from-[#C07F00B2] to-[#814d00a9]  "></div> */}
 
@@ -22,7 +26,7 @@ export const Token = () => {
                                 <h1 className="font-monoton text-5xl mt-2 lg:mt-8 lg:text-[5rem] uppercase">
                                     hasanat
                                 </h1>
-                                <h2 className="font-poppins font-bold leading-loose text-5xl lg:text-7xl uppercase lg:mt-4">
+                                <h2 className="font-poppins font-bold text-5xl lg:text-7xl uppercase lg:mt-4">
                                     Token & Tokenomics
                                 </h2>
 
@@ -52,13 +56,18 @@ export const Token = () => {
                         </div>
                     </Hero>
                 </div>
-                <div className='absolute right-0 -top-80 '>
+                <div className='absolute right-0 -top-[30%] lg:-top-80 -z-10 '>
                     <img src={pattren} alt="img" />
+                </div>
+                <div className='absolute left-0 top-[241%] lg:top-[212%] '>
+                    <img src={pattrenTwo} alt="img" />
                 </div>
             </section>
 
             <Welcome />
             <HowHasnatWorks />
+            <TokenomicsOverview />
+            <IncentiveStructure />
 
         </>
     );
