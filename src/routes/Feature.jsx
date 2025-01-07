@@ -29,7 +29,7 @@ export const Feature = () => {
       <Structure />
       <Footer>
         {/* The box */}
-        <div className="relative rounded-full h-[930px] lg:-mt-9 lg:h-auto p-4 lg:p-6 bg-gradient-to-b from-[#814E00] to-[#C07F00] overflow-hidden">
+        <div className="relative  -mb-72 lg:-mb-0 rounded-full h-[930px] lg:-mt-9 lg:h-auto p-4 lg:p-6 bg-gradient-to-b from-[#814E00] to-[#C07F00] overflow-hidden">
           {/* Shape decorations */}
           <div className="absolute top-0 left-0 rotate-90 lg:rotate-0 lg:top-12 lg:bottom-0 lg:left-0 h-64 w-64 rounded-full rounded-b-none rounded-tl-none bg-gradient-to-bl from-[#814E00] to-[#C07F00]"></div>
           <div className="absolute -top-20 -left-28 lg:top-44 lg:-left-12 lg:-bottom-32 w-64 h-64 rounded-full border-2 border-[#241702]"></div>

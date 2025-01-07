@@ -5,6 +5,7 @@ import heroImg from '../assets/images/tokenHero.png'
 import { Welcome } from '../sections/Welcome';
 import pattren from '../assets/icons/Frame 414.svg'
 import pattrenTwo from '../assets/icons/Frame 415.svg'
+import pattrenThree from '../assets/icons/Group (1).svg'
 
 import { HowHasnatWorks } from '../sections/HowHasnatWorks';
 import { TokenomicsOverview } from '../sections/TokenomicsOverview';
@@ -23,10 +24,10 @@ export const Token = () => {
                 {/* <div className="absolute inset-0 bg-gradient-to-r from-[#C07F00B2] to-[#814d00a9]  "></div> */}
 
 
-                <div className="relative z-10 bg-gradient-to-r from-[#C07F008F] via-[#C07F0000] to-[#C07F0000] ">
+                <div className="relative z-10 bg-gradient-to-r from-[#C07F00] via-[#C07F0000] to-[#C07F0000] ">
                     <Header />
                     <Hero>
-                        <div className="grid lg:grid-cols-2">
+                        <div className="grid lg:grid-cols-2 ">
                             <div className="max-w-lg text-white lg:mt-24  ">
                                 <h1 className="font-monoton text-5xl mt-2 lg:mt-8 lg:text-[5rem] uppercase">
                                     hasanat
@@ -41,7 +42,7 @@ export const Token = () => {
                             </div>
 
                             <div className=''>
-                                <div className='absolute right-0 top-1/2 -translate-y-1/2'>
+                                <div className='absolute right-0 top-1/2 hidden lg:block -translate-y-1/2 -z-10'>
                                     <svg width="968" height="1160" viewBox="0 0 968 1160" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g filter="url(#filter0_f_128_5996)">
                                             <ellipse cx="630.5" cy="546.5" rx="326.5" ry="309.5" fill="#C07F00" fill-opacity="0.49" />
@@ -67,6 +68,9 @@ export const Token = () => {
                 <div className='absolute left-0 top-[241%] lg:top-[212%] '>
                     <img src={pattrenTwo} alt="img" />
                 </div>
+                <div className='absolute right-0 top-[241%] lg:top-[265%] -z-20 hidden lg:block '>
+                    <img src={pattrenThree} alt="img" />
+                </div>
             </section>
 
             <Welcome />
@@ -77,7 +81,7 @@ export const Token = () => {
             <Contact />
             <Footer>
                 {/* The box */}
-                <div className="relative rounded-3xl h-[850px] lg:-mt-12 lg:h-auto p-4 lg:px-24 lg:py-6 bg-gradient-to-b from-[#814E00] to-[#C07F00] overflow-hidden">
+                <div className="relative -mb-72 lg:-mb-0 rounded-3xl h-[850px] lg:-mt-20 lg:h-auto p-4 lg:px-24 lg:py-6 bg-gradient-to-b from-[#814E00] to-[#C07F00] overflow-hidden">
                     {/* Shape decorations */}
                     <div className="absolute block lg:hidden top-0 left-0 rotate-90 lg:rotate-0 lg:top-12 lg:bottom-0 lg:left-0 h-64 w-64 rounded-full rounded-b-none rounded-tl-none bg-gradient-to-bl from-[#814E00] to-[#C07F00]"></div>
                     <div className="absolute block lg:hidden  -top-20 -left-28 lg:top-44 lg:-left-12 lg:-bottom-32 w-64 h-64 rounded-full border-2 border-[#241702]"></div>
@@ -85,6 +89,8 @@ export const Token = () => {
                     <div className="absolute block lg:hidden  w-28 h-28 lg:h-20 lg:w-20 rotate-0 top-10 -left-12 lg:top-[14.4rem] lg:-bottom-4 lg:left-14 rounded-full rounded-bl-none rounded-t-none lg:-rotate-90 border-4 border-opacity-30 border-[#814E00]"></div>
 
                     <img src={footerPattren} alt="" className='absolute left-0 -top-12 hidden lg:block' />
+     
+
                     {/* Content inside the box */}
                     <div className="flex lg:flex-row flex-col justify-end mt-auto h-full gap-6 lg:gap-0 items-center lg:justify-between">
                         <div className="flex flex-col items-center justify-start gap-6">

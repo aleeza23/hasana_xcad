@@ -36,7 +36,7 @@ export const IncentiveStructure = () => {
 
                     </div>
 
-                    <div>
+                    <div className='z-20 '>
                         <img src={rightColImg} alt="" className='size-80 mx-auto hidden lg:block' />
                         <h1 className="mb-2 mt-8 lg:mt-0 lg:mb-4 text-2xl lg:text-3xl gradient-text font-bold font-roboto">
                         Governance

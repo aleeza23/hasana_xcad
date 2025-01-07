@@ -21,7 +21,6 @@ export const AdditionalFeatures = () => {
                 <SectionHeading heading={'additional features '} />
 
                 {/* card layout */}
-
                 <div className="grid lg:grid-cols-2 gap-14 lg:gap-24 py-24">
                     {/* col one */}
                     <AddFeaturesCards

@@ -1,6 +1,7 @@
 import React from 'react'
 import { SectionHeading } from '../components/SectionHeading'
-import prayImage from '../assets/icons/pray.svg';
+import economyImg from '../assets/icons/digital-economy 1.svg';
+import spendingImg from '../assets/icons/spending 1.svg'
 import { AddFeaturesCards } from '../components/AddFeaturesCards';
 import { FaCheck } from "react-icons/fa";
 
@@ -16,7 +17,7 @@ export const HowTokenWorks = () => {
                 <div className="grid lg:grid-cols-2 gap-14 lg:gap-20 py-24">
 
                     <AddFeaturesCards
-                        image={prayImage}
+                        image={economyImg}
                         heading="Earning Tokens"
                         className={'bg-gradient-to-b pb-6 lg:max-w-full'}
                         comming='false'
@@ -33,7 +34,7 @@ export const HowTokenWorks = () => {
                     </AddFeaturesCards>
 
                     <AddFeaturesCards
-                        image={prayImage}
+                        image={spendingImg}
                         heading="Spending  Tokens"
                         className={'bg-gradient-to-b pb-6 max-w-xs lg:max-w-lg'}
                         comming='false'

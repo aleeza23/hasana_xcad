@@ -20,7 +20,7 @@ export const AddFeaturesCards = ({ image, heading, className, children, comming 
                     <img
                         src={image}
                         alt="Dynamic Icon"
-                        className="absolute top-1/2 left-[60%] -translate-x-1/2 -translate-y-1/2 size-12 lg:size-16"
+                        className="absolute top-1/2 left-[60%] -translate-x-1/2 -translate-y-1/2 size-9 lg:size-16"
                     />
                 </div>
             </div>

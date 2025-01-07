@@ -24,12 +24,12 @@
   border: 3px solid transparent; 
   border-image: linear-gradient(to bottom, #814E00, #C07F00); 
   border-image-slice: 1; 
-  border-radius: 9999px !important; /* Full round corners */
+  border-radius: 9999px !important;
   
 }
 
 .shadow{
-  filter: drop-shadow(-160px -150px 150px rgba(255, 255, 255, 0.63));
+  filter: drop-shadow(-160px -50px 150px rgba(255, 255, 255, 0.63));
   pointer-events: none;
 }
 
