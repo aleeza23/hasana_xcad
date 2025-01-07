@@ -5,11 +5,14 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App'
 import { Feature } from './routes/Feature'
 import { Token } from './routes/Token'
+import { Error } from './routes/Error'
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
   { path: '/features', element: <Feature /> },
   { path: '/token', element: <Token /> },
+  { path: '*', element: <Error /> },
+
 
 
 ])
