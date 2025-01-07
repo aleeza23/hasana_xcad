@@ -9,6 +9,11 @@ import pattrenTwo from '../assets/icons/Frame 415.svg'
 import { HowHasnatWorks } from '../sections/HowHasnatWorks';
 import { TokenomicsOverview } from '../sections/TokenomicsOverview';
 import { IncentiveStructure } from '../sections/IncentiveStructure';
+import { GettingStarted } from '../sections/GettingStarted';
+import { Contact } from '../sections/Contact';
+import { Footer } from '../sections/Footer';
+import footerImg from '../assets/images/token footer.png'
+import footerPattren from '../assets/icons/Frame 417.svg'
 
 export const Token = () => {
     return (
@@ -68,6 +73,37 @@ export const Token = () => {
             <HowHasnatWorks />
             <TokenomicsOverview />
             <IncentiveStructure />
+            <GettingStarted />
+            <Contact />
+            <Footer>
+                {/* The box */}
+                <div className="relative rounded-3xl h-[850px] lg:-mt-12 lg:h-auto p-4 lg:px-24 lg:py-6 bg-gradient-to-b from-[#814E00] to-[#C07F00] overflow-hidden">
+                    {/* Shape decorations */}
+                    <div className="absolute block lg:hidden top-0 left-0 rotate-90 lg:rotate-0 lg:top-12 lg:bottom-0 lg:left-0 h-64 w-64 rounded-full rounded-b-none rounded-tl-none bg-gradient-to-bl from-[#814E00] to-[#C07F00]"></div>
+                    <div className="absolute block lg:hidden  -top-20 -left-28 lg:top-44 lg:-left-12 lg:-bottom-32 w-64 h-64 rounded-full border-2 border-[#241702]"></div>
+                    <div className="absolute block lg:hidden  w-28 h-28 lg:h-20 lg:w-20 rotate-0 top-10 -left-9 lg:top-56 lg:-bottom-3 lg:left-16 rounded-full rounded-bl-none rounded-t-none lg:-rotate-90 bg-gradient-to-l from-[#814E00] to-[#C07F00]"></div>
+                    <div className="absolute block lg:hidden  w-28 h-28 lg:h-20 lg:w-20 rotate-0 top-10 -left-12 lg:top-[14.4rem] lg:-bottom-4 lg:left-14 rounded-full rounded-bl-none rounded-t-none lg:-rotate-90 border-4 border-opacity-30 border-[#814E00]"></div>
+
+                    <img src={footerPattren} alt="" className='absolute left-0 -top-12 hidden lg:block' />
+                    {/* Content inside the box */}
+                    <div className="flex lg:flex-row flex-col justify-end mt-auto h-full gap-6 lg:gap-0 items-center lg:justify-between">
+                        <div className="flex flex-col items-center justify-start gap-6">
+                            <div className="text-start">
+                                <h1 className="font-medium text-4xl font-roboto ">Stay Updated</h1>
+                                <p className='font-roboto font-light leading-loose text-xs max-w-sm  mt-4'>For the latest news on Hasanat Tokens, including updates on new features and tokenomics adjustments, subscribe to our newsletter and follow us on our social media channels.</p>
+                                <div className='relative mt-7 '>
+                                    <input type="text" placeholder='Enter your email' className='rounded-full w-full h-10 ps-4 placeholder:text-sm' />
+                                    <button className='bg-[#231C1C] rounded-full h-10 float-end mt-4 lg:mt-0  lg:absolute right-0 w-[40%] lg:w-[30%] font-roboto text-xs'>Subscribes</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div>
+                            <img src={footerImg} alt="img" className=" size-64 lg:size-52" />
+                        </div>
+                    </div>
+                </div>
+            </Footer>
 
         </>
     );
